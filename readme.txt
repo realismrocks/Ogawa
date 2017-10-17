@@ -1,4 +1,6 @@
-To get started copy all files into a folder on your computer and run Ogawa.exe (requires MCR2015b)
+To get started copy all files into a folder on your computer and run Ogawa.exe.
+
+This software requires MCR2015b to run (similar to a .docx file needing Microsoft Word to open). You should get prompted to install it, otherwise you can locate it here https://au.mathworks.com/products/compiler/mcr.html and install it first.
 
 Ogawa can be used to sort high density grids very quickly. 
 The app uses the ROI of sort-bucket 1. This means that you 
