@@ -6,14 +6,15 @@ need to have selected a ROI to sort and have placed it in the
 left most population to sort in the sort layout window in Sortware. 
 The app moves the deflected stream in increments subtracting the voltage, 
 i.e. the stream will move in increments to the left once started, 
-follwed by down in the Y direction, and subsequently in the X direction 
+followed by down in the Y direction, and subsequently in the X direction 
 if chosen.
-(1) Have Sortware connected, and acquiring data.
-(2) Ensure you have selected the population that you want sorted as the left most population to be sorted in the sort layout.
-(3) Adjust the stream deflection voltage to be where you want the first drop to go. Then turn off test streams.
-(4) Configure sort grid as desired in the Ogawa window and click start!.
-(5) The app will start sorting the x direction by changing stream deflection voltages, followed by moving in the Y direction, followed by moving in the x direction by the number in the step size box.
-(6) Once completed it will stop sorting.
+'(1) Have Sortware connected, and acquiring data.'; 
+'(2) Ensure you have selected the population that you want sorted as the left most population to be sorted in the sort layout.';
+'(3) Adjust the stream deflection voltage to be where you want the first drop to go. The next drop will go left of this.';
+'(4) Configure sort grid as desired in the Ogawa window.';
+'(5)*Only necesary if instrument has not sorted anything since power on. Only done once!* Click Sort to begin the sort and then stop the sort. This initialises the sort bucket and enables the stream.',;,'Click start to begin!.';
+'(6) The app will start sorting the x direction by changing stream deflection voltages, followed by moving in the Y direction, followed by moving in the x direction by the number in the step size box.';
+'(7) Once completed it will stop sorting.
 
 MIT License
 
